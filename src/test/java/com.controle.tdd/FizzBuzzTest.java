@@ -7,6 +7,10 @@ public class FizzBuzzTest {
     void fizzbuzz() {
        assertEquals("1",FizzBuzz.de(1));
     }
+    @Test
+    void fizzbuzz1() {
+        assertEquals("Fizz",FizzBuzz.de(3));
+    }
 }
 
 
