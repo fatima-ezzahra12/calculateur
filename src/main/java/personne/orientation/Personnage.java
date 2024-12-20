@@ -7,6 +7,10 @@ public class Personnage {
             chaine="EST";
             return chaine;
         }
+        else if(nbr%4==2){
+            chaine="SUD";
+            return chaine;
+        }
 
         return chaine;}
 }
