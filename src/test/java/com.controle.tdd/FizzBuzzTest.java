@@ -11,6 +11,10 @@ public class FizzBuzzTest {
     void fizzbuzz1() {
         assertEquals("Fizz",FizzBuzz.de(3));
     }
+    @Test
+    void fizzbuzz2(){
+        assertEquals("Buzz",FizzBuzz.de(5));
+    }
 }
 
 
