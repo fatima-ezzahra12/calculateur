@@ -22,6 +22,12 @@ public class Personnagetest {
         String result=P.tourner(2);
         assertEquals("SUD",result,"we be "+"SUD"+" but we "+result);
     }
-
-
+    @Test
+    void tourn_test3(){
+        Personnage P= new Personnage();
+        String rest=P.tourner(3);
+        assertEquals("OUEST",rest,"we be "+"OUEST"+" but we "+rest);
 }
+}
+
+
